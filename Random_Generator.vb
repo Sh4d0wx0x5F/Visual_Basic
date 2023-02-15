@@ -2,7 +2,7 @@ Module Module1
 
     Sub Main()
         Dim RNum(99) As Integer
-        Dim count, x, num As Integer
+        Dim count, x As Integer
 
         count = 0
         For x = 0 To 99
