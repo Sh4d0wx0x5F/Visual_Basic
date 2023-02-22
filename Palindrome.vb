@@ -5,14 +5,14 @@ Module Module1
         Console.WriteLine("Enter a word to check for plaindrome: ")
         word = Console.ReadLine()
 
-        If Plaindrome(word) = True Then
+        If Palindrome(word) = True Then
             Console.WriteLine("It's a plaindrome")
         Else
             Console.WriteLine("It's not a plaindrome")
         End If
         Console.ReadKey()
     End Sub
-    Function Plaindrome(word As String) As Boolean
+    Function Palindrome(word As String) As Boolean
         Dim word_2, word_3 As String
         Dim alpha As Char
         Dim l As Integer
