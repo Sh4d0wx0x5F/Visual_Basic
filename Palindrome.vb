@@ -2,13 +2,13 @@ Module Module1
 
     Sub Main()
         Dim word As String
-        Console.WriteLine("Enter a word to check for plaindrome: ")
+        Console.WriteLine("Enter a word to check for palindrome: ")
         word = Console.ReadLine()
 
         If Palindrome(word) = True Then
-            Console.WriteLine("It's a plaindrome")
+            Console.WriteLine("It's a palindrome")
         Else
-            Console.WriteLine("It's not a plaindrome")
+            Console.WriteLine("It's not a palindrome")
         End If
         Console.ReadKey()
     End Sub
